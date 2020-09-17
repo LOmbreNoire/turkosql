@@ -34,9 +34,7 @@ Kali Linux - Installation(Kurulum):
 
 Kullanımları :
 ----
--  Renklendirildi Ve Banner Ayarlandı.
-
--    
+-  Renklendirildi Ve Banner Ayarlandı.    
 
 - Hatalar Giderildi.
 
