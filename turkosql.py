@@ -3,6 +3,9 @@ import sys
 import time
 from colorama import Fore, Back, Style
 os.system("clear")
+if os.geteuid() != 0:
+  print("Lütfen Kodun Başına 'sudo' Koyun.Veya Root Olarak Giriş Yapınız.")
+  sys.exit()
 banner = (Fore.GREEN + """\n
    __                          __                                              __       
   /  |                        /  |                                            /  |      
