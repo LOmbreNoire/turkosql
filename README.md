@@ -14,7 +14,7 @@ Hatalar Giderildi. ✔
 
 Root Olarak Giriş Yapmadıysanız Root Olarak Giriş Yapınız ❕
 
-- Programı çalıştırmadan önce deponuzu güncellemeyi unutmayınız ❕
+Programı çalıştırmadan önce deponuzu güncellemeyi unutmayınız ❕
 
 --------------------------------------------------------------------------
 
