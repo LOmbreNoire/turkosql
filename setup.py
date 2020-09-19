@@ -1,5 +1,6 @@
-import os
 import time
+import sys
+import os
 from colorama import Fore, Back, Style
 os.system("clear")
 banner = (Fore.GREEN + """\n
@@ -19,6 +20,10 @@ print(banner)
 print(Style.RESET_ALL)
 print(Fore.RED+"Developer By L'Ombre Noire...")
 print("Dosyalar Yükleniyor Lütfen Bekleyiniz")
+
+if os.geteuid() != 0:
+  print("Lütfen Kodun Başına 'sudo' Koyun.Veya Root Olarak Giriş Yapınız.")
+  sys.exit()
 
 secim=input("Deponuz Güncellensinmi-[Bu Biraz Zaman Alabilir]-(E\H):")
 if secim == 'E':
