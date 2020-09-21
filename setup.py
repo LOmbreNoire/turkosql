@@ -64,7 +64,24 @@ if secim == 'e':
   os.chdir(yol)
   os.system("python3 turkosql.py")
 
-else:
+if secim== 'H':
+  os.system("apt install sqlmap")
+  os.system("git clone https://github.com/the-robot/sqliv")
+  os.system("pip install bs4")
+  os.system("pip install termcolor")
+  os.system("pip install google")
+  os.system("pip install nyawc")
+  yol=os.getcwd()
+  os.chdir(yol+'/sqliv')
+  os.system("python setup.py -i")
+  os.system("clear")
+  print("Kurulum Tamamlandı Teşekkür Ederiz.")
+  print("turkosql Başlatılıyor...")
+  time.sleep(3)
+  os.chdir(yol)
+  os.system("python3 turkosql.py")
+
+if secim== 'h':
   os.system("apt install sqlmap")
   os.system("git clone https://github.com/the-robot/sqliv")
   os.system("pip install bs4")
